@@ -155,6 +155,7 @@ public class ServiceTwo extends Service  implements MediaPlayer.OnPreparedListen
     @Override
     public void onDestroy() {
         super.onDestroy();
+        stopSelf();
     }
 
     @Nullable
