@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TheadsNServices</string>
+    <string name="serv1start">Service 1 start</string>
+    <string name="serv1stop">Service 1 stop</string>
+    <string name="serv2back">Back</string>
+    <string name="serv2play">Play</string>
+    <string name="serv2stop">Stop</string>
+    <string name="serv2forward">Forward</string>
+    <string name="choiceService">Choice Service</string>
+</resources>

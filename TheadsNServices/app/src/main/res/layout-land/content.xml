@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/phone"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </FrameLayout>
+
+
+
+
+        <ProgressBar
+            android:id="@+id/pBar"
+            style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:visibility="gone" />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layService1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/bService1"
+                style="@style/Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="@string/serv1start" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/bService2"
+                style="@style/Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/serv1stop">
+
+            </android.support.v7.widget.AppCompatButton>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/layService1"
+        android:layout_toLeftOf="@id/layPlayer"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/weather"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="-10dp"
+            android:hint="Сдесь будет отображаться данные о погоде"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:textColorHint="#4d4646" />
+
+    </LinearLayout>
+
+
+
+
+<LinearLayout
+    android:id="@+id/layPlayer"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical">
+    <fragment
+        android:id="@+id/frag1"
+        android:layout_alignParentRight="true"
+        android:name="com.example.funny.theadsnservices.Frag1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:layout="@layout/frag1" />
+
+</LinearLayout>
+
+</RelativeLayout>

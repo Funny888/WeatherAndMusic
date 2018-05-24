@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TheadsNServices</string>
+    <string name="serv1start">Данные о погоде</string>
+    <string name="serv1stop">Отменить запрос</string>
+    <string name="serv1stopText">Запрос отменен</string>
+    <string name="serv2back">Назад</string>
+    <string name="serv2play">Играть</string>
+    <string name="serv2stop">Остановить</string>
+    <string name="serv2forward">Вперед</string>
+    <string name="choiceService">Выберите сервис</string>
+</resources>

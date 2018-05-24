@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ServicesClass</string>
+    <string name="tempAir">Температура воздуха: </string>
+</resources>
